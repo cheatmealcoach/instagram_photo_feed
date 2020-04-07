@@ -1,0 +1,32 @@
+body {
+  background: grey;
+}
+.main-container {
+  background: white;
+  width: 500px;
+  height: 525px;
+  margin: 10px;
+}
+.header {
+  height: 80px;
+  position: relative;
+}
+.header-logo,
+.header-number {
+  position: absolute;
+}
+.header-logo {
+  top: 10px;
+  left: 10px;
+}
+.header-number {
+  right: 10px;
+  top: 10px;
+}
+h1,
+p {
+  margin: 0;
+}
+.content {
+  padding: 10px;
+}
